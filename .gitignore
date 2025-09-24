@@ -1,0 +1,95 @@
+# ----------------------------------------
+# Système / OS
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+# Environnements Python / dépendances
+# ----------------------------------------
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+.Python
+pip-wheel-metadata/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ----------------------------------------
+# Configuration / secrets
+# ----------------------------------------
+# Environment files (contient clés API, tokens)
+.env
+.env.*
+secrets.toml
+credentials.json
+*.pem
+*.key
+
+# TMDB / Qdrant dumps or local data
+*.sqlite3
+*.db
+qdrant_data/
+data/
+secrets/
+
+# ----------------------------------------
+# Streamlit
+# ----------------------------------------
+.streamlit/
+# si vous avez des configs locales
+.streamlit/config.toml
+
+# ----------------------------------------
+# Notebooks, caches, logs
+# ----------------------------------------
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# ----------------------------------------
+# IDEs / Editors
+# ----------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------------------------
+# Misc / OS temp
+# ----------------------------------------
+*.tmp
+*.swp
+*~ 
+
+# ----------------------------------------
+# Node / frontend (if present)
+# ----------------------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ----------------------------------------
+# Optional: lockfiles you may want to keep
+# ----------------------------------------
+# Pipenv / Poetry caches
+# .venv/
+# .venv/*
+
+# End of file
