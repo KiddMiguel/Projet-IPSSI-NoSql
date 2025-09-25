@@ -19,8 +19,8 @@ Fonctionnalités principales :
 
 ### 1. Cloner le projet
 ```bash
-git clone https://github.com/mon-groupe/projet-nosql-tmdb.git
-cd projet-nosql-tmdb
+git clone https://github.com/KiddMiguel/Projet-IPSSI-NoSql.git
+cd Projet-IPSSI-NoSql
 ````
 
 ### 2. Créer un environnement virtuel
@@ -80,6 +80,7 @@ Nous avons synthétisé les résultats et les démonstrations dans un **Google S
 * Comptage des films par genre et évolution des notes par décennie.
 * Top 10 des films récents selon Qdrant.
 * Affichage des affiches de films via l’API TMDB.
+
 
 
 
