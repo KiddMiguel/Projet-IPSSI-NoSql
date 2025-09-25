@@ -1,10 +1,11 @@
 # Projet Big Data & NoSQL — Qdrant + TMDB
 
-## 👥 Équipe
-- KIDIMBA Miguel (rôle : backend, intégration Qdrant, gestion de projet, support)
+## Équipe
+- KIDIMBA Miguel (rôle : backend, intégration Qdrant, support)
 - Moussa BAKAYOKO (rôle : collecte dataset + nettoyage, WebApp & visualisation)
+- TATA Kevin (rôle : gestion de projet)
 
-## 🚀 Objectif
+## Objectif
 Mettre en place une base NoSQL vectorielle avec **Qdrant** pour stocker et interroger des films issus du dataset **TMDB**.  
 Fonctionnalités principales :
 - Import et vectorisation des films (embeddings `sentence-transformers`)
@@ -79,6 +80,7 @@ Nous avons synthétisé les résultats et les démonstrations dans un **Google S
 * Comptage des films par genre et évolution des notes par décennie.
 * Top 10 des films récents selon Qdrant.
 * Affichage des affiches de films via l’API TMDB.
+
 
 
 
