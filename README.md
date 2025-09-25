@@ -70,7 +70,7 @@ Nous avons utilisé **Trello** pour organiser les tâches (à faire / en cours /
 
 Nous avons synthétisé les résultats et les démonstrations dans un **Google Slides** destiné à un manager non technique.
 
-🔗 **Lien Google Slides** : [https://docs.google.com/presentation]([https://docs.google.com/presentation/d/xxxxxx](https://docs.google.com/presentation/d/1cY8LI4dFB9DNL72DNo2yJ8BbpwqxkqsyJBeAYUxW9WA/edit?usp=sharing))
+🔗 **Lien Google Slides** : https://docs.google.com/presentation/d/1cY8LI4dFB9DNL72DNo2yJ8BbpwqxkqsyJBeAYUxW9WA/edit?usp=sharing
 
 ---
 
@@ -80,6 +80,7 @@ Nous avons synthétisé les résultats et les démonstrations dans un **Google S
 * Comptage des films par genre et évolution des notes par décennie.
 * Top 10 des films récents selon Qdrant.
 * Affichage des affiches de films via l’API TMDB.
+
 
 
 
