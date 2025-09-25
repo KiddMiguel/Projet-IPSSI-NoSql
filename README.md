@@ -81,10 +81,26 @@ Nous avons synthétisé les résultats et les démonstrations dans un **Google S
 * Top 10 des films récents selon Qdrant.
 * Affichage des affiches de films via l’API TMDB.
 
+---
 
+## 🎬 Médias (vidéo et images)
 
+Vous pouvez intégrer directement des vidéos et des images dans le README en HTML. Exemples ci‑dessous — adaptez les chemins (relatifs) ou utilisez des URLs distantes.
 
+- Lecture :
+<video controls width="720" poster="./Reccord Kevin et 1 autreEnregistrement- Trim.mp4">
+  <source src="./Reccord Kevin et 1 autreEnregistrement- Trim.mp4" type="video/mp4">
+  Votre navigateur ne prend pas en charge la vidéo HTML5. <a href="docs/media/demo.mp4">Télécharger la vidéo</a>.
+</video>
 
+- DashBoard :
+<img src="./images/image.png" alt="Affiche du film" width="100%" />
+
+- Analytique :
+  <img src="./images/image3.png" alt="Affiche 1" width="100%">
+
+- Recherche
+  <img src="./images/image2.png" alt="Affiche 2" width="100%">
 
 
 
