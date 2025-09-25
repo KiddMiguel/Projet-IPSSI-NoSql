@@ -27,9 +27,8 @@ def render_analytics_page(client: QdrantClient, list_known_genres_func, analytic
     # Genre Analysis Section
     st.markdown("#### Analyse par genre")
     
-    tab1, tab2 = st.tabs(["Distribution", "Comparaison"])
-    
-    with tab1:
+    tabs = st.tabs(["Distribution"])
+    with tabs[0]:
         col1, col2 = st.columns([1, 2])
         
         with col1:
@@ -89,16 +88,6 @@ def render_analytics_page(client: QdrantClient, list_known_genres_func, analytic
                             "count": st.column_config.NumberColumn("Nombre de films", format="%d")
                         }
                     )
-    
-    with tab2:
-        st.info("Fonctionnalité de comparaison avancée à venir")
-        
-        # Placeholder for comparison features
-        col1, col2 = st.columns(2)
-        with col1:
-            st.selectbox("Genre A", options=list_known_genres_func(client)[:5])
-        with col2:
-            st.selectbox("Genre B", options=list_known_genres_func(client)[:5])
     
     st.markdown("---")
     
@@ -188,4 +177,4 @@ def render_analytics_page(client: QdrantClient, list_known_genres_func, analytic
             best_decade = df_dec.loc[df_dec['mean_vote'].idxmax(), 'decade']
             st.metric("Meilleure décennie", f"{best_decade}s")
         with col4:
-            st.metric("Total analysé", f"{df_dec['n'].sum():,}")
+            st.metric("Total analysé", f"{df_dec['n'].sum():,}")    
