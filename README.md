@@ -61,7 +61,7 @@ streamlit run app.py
 
 Nous avons utilisé **Trello** pour organiser les tâches (à faire / en cours / fait) et suivre l’avancement.
 
-🔗 **Lien Trello** : [https://trello.com/b/xxxxxx/projet-nosql-tmdb](https://trello.com/b/xxxxxx/projet-nosql-tmdb)
+🔗 **Lien Trello** : [https://trello.com/b/xxxxxx/projet-nosql-tmdb](https://trello.com/invite/b/68d4ff869f4e5c931de01beb/ATTI431e7e3f75f8accfb93d3fba90148162459E49EE/projet-final)
 
 ---
 
@@ -79,4 +79,5 @@ Nous avons synthétisé les résultats et les démonstrations dans un **Google S
 * Comptage des films par genre et évolution des notes par décennie.
 * Top 10 des films récents selon Qdrant.
 * Affichage des affiches de films via l’API TMDB.
+
 
